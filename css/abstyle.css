@@ -150,6 +150,30 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
+.index-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.index-li {
+  float: left;
+}
+
+.index-li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.index-li a:hover:not(.active) {
+  background-color: white;
+}
+
  @media screen and (max-width: 650px) {
      .column {
          width: 100%;
