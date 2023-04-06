@@ -11,6 +11,7 @@ h1{
   font-family: 'Futura PT', sans-serif;
   font-weight: bold;
   padding-top: 1em;
+  padding-bottom: 0.5em;
 }
 
 .footer {
@@ -39,6 +40,16 @@ h1{
     display: flex;
     animation: slide 10s infinite;
 }
+
+#navbar-container{
+  text-align: center;
+  position: relative; 
+  width: 100%;
+  float: left;
+  background-color: white;
+  overflow: hidden; 
+}
+
 
 @keyframes slide{  
  
