@@ -1,13 +1,14 @@
 body{
 	background: blue;
-	background: linear-gradient(white, #87CEFA);
+	background: linear-gradient(#87CEFA, white);
 	background-attachment: fixed;
 }
 
-p{
+h1{
   color: white;
-  text-align: left;
-  font-size: 2em;
+  text-align: center;
+  font-size: 4em;
   font-family: 'Futura PT', sans-serif;
   font-weight: bold;
+  padding-top: 1em;
 }
