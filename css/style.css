@@ -59,6 +59,13 @@ h1{
   float: left;
 }
 
+#navbar-container ul li{ 
+  display: block; 
+  float: left;
+  right: 50%;
+  position: relative;
+}
+
 
 
 @keyframes slide{  
