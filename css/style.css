@@ -23,3 +23,14 @@ h1{
   color: white;
   
 }
+
+.slideshow{
+    width: 50em;
+	height: 30em;
+    position: absolute;
+    overflow: hidden;
+    border: 0.5em solid white;
+	left: 25%;
+	top: 25%;
+}
+
