@@ -66,6 +66,15 @@ h1{
   position: relative;
 }
 
+#navbar-container ul li a{
+   
+  display: block; 
+  color: #4169E1; 
+  padding: 1em 2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Futura PT', sans-serif;
+}
 
 
 @keyframes slide{  
