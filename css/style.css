@@ -3,3 +3,11 @@ body{
 	background: linear-gradient(white, #87CEFA);
 	background-attachment: fixed;
 }
+
+p{
+  color: white;
+  text-align: left;
+  font-size: 2em;
+  font-family: 'Futura PT', sans-serif;
+  font-weight: bold;
+}
