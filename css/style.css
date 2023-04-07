@@ -10,8 +10,10 @@ body{
   font-family: 'Futura PT', sans-serif;
   font-size: 0.5em;
   font-weight: bold;
-  padding-top: 3em;
-  
+}
+
+#caption p{
+  padding-top: 1em;
 }
 
 h1{
