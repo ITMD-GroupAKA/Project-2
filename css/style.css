@@ -1,3 +1,9 @@
+body{
+  background: blue;
+  background: linear-gradient(#4169E1, white);
+  background-attachment: fixed;
+}
+
 h1 {
   margin: auto;
   background-color: DodgerBlue;
@@ -10,6 +16,10 @@ h1 {
   resize: vertical;  
 }
 
+h2 {
+  text-align: center;
+}
+
 form {
   width: auto;
   background-color: DodgerBlue;
@@ -17,9 +27,10 @@ form {
   padding: 0.70em;
   outline: 0.20em solid black;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 10%;
   margin-left: 25%;
   margin-right: 25%;
+  
 }
 
 #message {
