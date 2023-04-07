@@ -9,3 +9,15 @@ h1 {
   position: relative;
   resize: vertical;  
 }
+
+form {
+  width: auto;
+  background-color: DodgerBlue;
+  border-radius: 1.50em;
+  padding: 0.70em;
+  outline: 0.20em solid black;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
