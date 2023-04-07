@@ -1,0 +1,46 @@
+body{
+  background: blue;
+  background: linear-gradient(#4169E1, white);
+  background-attachment: fixed;
+}
+
+h1 {
+  margin: auto;
+  background-color: DodgerBlue;
+  color: white;
+  text-align: center;
+  font-size: 2.25em;
+  padding: 0.30em;
+  display: block;
+  position: relative;
+  resize: vertical;  
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  width: auto;
+  background-color: DodgerBlue;
+  border-radius: 1.50em;
+  padding: 0.70em;
+  outline: 0.20em solid black;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  
+}
+
+#message {
+  padding: 2em;
+}
+
+#navbar-container {
+  text-align: center;
+  position: relative; 
+  width: 100%;
+  float: left;
+  background-color: gray;
+}
