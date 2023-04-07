@@ -25,3 +25,11 @@ form {
 #message {
   padding: 2em;
 }
+
+#navbar-container {
+  text-align: center;
+  position: relative; 
+  width: 100%;
+  float: left;
+  background-color: gray;
+}
