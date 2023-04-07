@@ -1,7 +1,7 @@
 body{
-	background: blue;
-	background: linear-gradient(#4169E1, white);
-	background-attachment: fixed;
+  background: blue;
+  background: linear-gradient(#4169E1, white);
+  background-attachment: fixed;
 }
 
 #caption{
@@ -65,19 +65,19 @@ h1{
 }
 
 .slideshow{
-    width: 50em;
-	height: 30em;
-    position: absolute;
-    overflow: hidden;
-    border: 0.5em solid white;
-	top: 33%;
-	left: 29%;
+  width: 50em;
+  height: 30em;
+  position: absolute;
+  overflow: hidden;
+  border: 0.5em solid white;
+  top: 33%;
+  left: 29%;
 }
 
 .slides{
-    width: 100%;
-    display: flex;
-    animation: slide 10s infinite;
+  width: 100%;
+  display: flex;
+  animation: slide 10s infinite;
 }
 
 #navbar-container{
@@ -106,7 +106,6 @@ h1{
 }
 
 #navbar-container ul li a{
-   
   display: block; 
   color: #4169E1; 
   padding: 1em 2em;
@@ -120,38 +119,38 @@ h1{
 }
 
 @keyframes slide{  
- 
-    0%{
-       transform: translateX(0);
-    }
+
+  0%{
+    transform: translateX(0);
+  }
+  
+  25%{
+    transform: translateX(0);
+  }
 	
-    25%{
-        transform: translateX(0);
-    }
+  30%{
+    transform: translateX(-100%);
+  }
 	
-    30%{
-        transform: translateX(-100%);
-    }
+  50%{
+    transform: translateX(-100%);
+  }
 	
-    50%{
-        transform: translateX(-100%);
-    }
+  55%{
+    transform: translateX(-200%);
+  }
 	
-    55%{
-        transform: translateX(-200%);
-    }
+  75%{
+    transform: translateX(-200%);
+  }
 	
-    75%{
-        transform: translateX(-200%);
-    }
+  80%{
+    transform: translateX(-300%);
+  }
 	
-    80%{
-        transform: translateX(-300%);
-    }
-	
-    100%{
-        transform: translateX(-300%);
-    }
+  100%{
+    transform: translateX(-300%);
+  }
 }
 
 @media screen and (min-width: 800px){
