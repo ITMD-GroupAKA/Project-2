@@ -1,7 +1,7 @@
 body{
-	background: blue;
-	background: linear-gradient(#4169E1, white);
-	background-attachment: fixed;
+  background: blue;
+  background: linear-gradient(#4169E1, white);
+  background-attachment: fixed;
 }
 
 #caption{
@@ -10,8 +10,10 @@ body{
   font-family: 'Futura PT', sans-serif;
   font-size: 0.5em;
   font-weight: bold;
-  padding-top: 3em;
-  
+}
+
+#caption p{
+  padding-top: 1em;
 }
 
 h1{
@@ -24,31 +26,58 @@ h1{
   padding-bottom: 0.5em;
 }
 
+.container {
+  padding: 0 16px;
+  text-align: center;
+  padding: 1em;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #4169E1	;
-  text-align: right;
-  height: 4em;
-  color: white;
-  
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.foot-1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  padding: 1em;
+}
+.foot-2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  padding: 1em;
+
+}
+.foot-3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 10px;
+  color: #333;
+  font-weight: bold;
+  padding: 1em;
+
 }
 
 .slideshow{
-    width: 50em;
-	height: 30em;
-    position: absolute;
-    overflow: hidden;
-    border: 0.5em solid white;
-	left: 25%;
-	top: 35%;
+  width: 50em;
+  height: 30em;
+  position: absolute;
+  overflow: hidden;
+  border: 0.5em solid white;
+  top: 33%;
+  left: 29%;
 }
 
 .slides{
-    width: 100%;
-    display: flex;
-    animation: slide 10s infinite;
+  width: 100%;
+  display: flex;
+  animation: slide 10s infinite;
 }
 
 #navbar-container{
@@ -77,7 +106,6 @@ h1{
 }
 
 #navbar-container ul li a{
-   
   display: block; 
   color: #4169E1; 
   padding: 1em 2em;
@@ -91,38 +119,38 @@ h1{
 }
 
 @keyframes slide{  
- 
-    0%{
-       transform: translateX(0);
-    }
+
+  0%{
+    transform: translateX(0);
+  }
+  
+  25%{
+    transform: translateX(0);
+  }
 	
-    25%{
-        transform: translateX(0);
-    }
+  30%{
+    transform: translateX(-100%);
+  }
 	
-    30%{
-        transform: translateX(-100%);
-    }
+  50%{
+    transform: translateX(-100%);
+  }
 	
-    50%{
-        transform: translateX(-100%);
-    }
+  55%{
+    transform: translateX(-200%);
+  }
 	
-    55%{
-        transform: translateX(-200%);
-    }
+  75%{
+    transform: translateX(-200%);
+  }
 	
-    75%{
-        transform: translateX(-200%);
-    }
+  80%{
+    transform: translateX(-300%);
+  }
 	
-    80%{
-        transform: translateX(-300%);
-    }
-	
-    100%{
-        transform: translateX(-300%);
-    }
+  100%{
+    transform: translateX(-300%);
+  }
 }
 
 @media screen and (min-width: 800px){
