@@ -153,29 +153,40 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-.index-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #f1f1f1;
+#navbar-container{
+  text-align: center;
+  position: relative; 
+  width: 100%;
+  float: left;
+  background-color: white;
+  overflow: hidden; 
 }
 
-.index-li {
+#navbar-container ul{
+  left: 50%;
+  margin: 0; 
+  padding: 0; 
+  position: relative; 
+  list-style-type: none; 
   float: left;
 }
 
-.index-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+#navbar-container ul li{ 
+  display: block; 
+  float: left;
+  right: 50%;
+  position: relative;
 }
 
-.index-li a:hover:not(.active) {
-  background-color: white;
+#navbar-container ul li a{
+  display: block; 
+  color: #4169E1; 
+  padding: 1em 2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Futura PT', sans-serif;
 }
+
 
 button{
   font-family: 'Playfair Display', serif;
