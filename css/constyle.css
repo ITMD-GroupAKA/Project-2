@@ -18,6 +18,9 @@ h1 {
 
 h2 {
   text-align: center;
+  margin-top: 10%;
+  font-family: "Arial", serif;
+  font-size: 1.25em;
 }
 
 form {
@@ -28,7 +31,7 @@ form {
   padding: 0.70em;
   outline: 0.20em solid black;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 4%;
   margin-left: 25%;
   margin-right: 25%;
   
