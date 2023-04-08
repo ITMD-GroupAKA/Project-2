@@ -35,7 +35,6 @@ form {
   margin-top: 4%;
   margin-left: 25%;
   margin-right: 25%;
-  
 }
 
 #message {
@@ -115,4 +114,12 @@ form {
 
 #navbar-container ul li a:hover{
   background-color: #8AC7DB; 
+}
+
+@media screen and (min-width: 800px) {
+  form {
+    padding: 0.40em;
+	display: block;
+	width: 100;
+  }
 }
