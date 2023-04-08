@@ -67,3 +67,18 @@ form {
   font-weight: bold;
   padding: 1em;
 }
+
+.foot-2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  padding: 1em;
+}
+.foot-3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 10px;
+  color: #333;
+  font-weight: bold;
+  padding: 1em;
+}
