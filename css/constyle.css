@@ -21,6 +21,7 @@ h2 {
 }
 
 form {
+  font-family: "Georgia", serif;
   width: auto;
   background-color: DodgerBlue;
   border-radius: 1.50em;
@@ -45,8 +46,24 @@ form {
   background-color: gray;
 }
 
+.container {
+  padding: 0 16px;
+  text-align: center;
+  padding: 1em;
+}
+
 .footer {
-     background-color: #f5f5f5;
-     padding: 20px;
-     text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.foot-1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  padding: 1em;
 }
