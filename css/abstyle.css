@@ -188,6 +188,9 @@ body {
   font-family: 'Futura PT', sans-serif;
 }
 
+#navbar-container ul li a:hover{
+  background-color: #8AC7DB; 
+}
 
 button{
   font-family: 'Playfair Display', serif;
