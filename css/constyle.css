@@ -41,14 +41,6 @@ form {
   padding: 2em;
 }
 
-#navbar-container {
-  text-align: center;
-  position: relative; 
-  width: 100%;
-  float: left;
-  background-color: gray;
-}
-
 .container {
   padding: 0 16px;
   text-align: center;
@@ -84,4 +76,29 @@ form {
   color: #333;
   font-weight: bold;
   padding: 1em;
+}
+
+#navbar-container{
+  text-align: center;
+  position: relative; 
+  width: 100%;
+  float: left;
+  background-color: white;
+  overflow: hidden; 
+}
+
+#navbar-container ul{
+  left: 50%;
+  margin: 0; 
+  padding: 0; 
+  position: relative; 
+  list-style-type: none; 
+  float: left;
+}
+
+#navbar-container ul li{ 
+  display: block; 
+  float: left;
+  right: 50%;
+  position: relative;
 }
