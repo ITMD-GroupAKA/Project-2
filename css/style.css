@@ -7,7 +7,7 @@ body{
 #caption{
   text-align: center;
   color: white;
-  font-family: 'Futura PT', sans-serif;
+  font-family: 'Futura PT', Verdana, sans-serif;
   font-size: 0.5em;
   font-weight: bold;
 }
@@ -20,7 +20,7 @@ h1{
   color: white;
   text-align: center;
   font-size: 2em;
-  font-family: 'Futura PT', sans-serif;
+  font-family: 'Futura PT', Verdana, sans-serif;
   font-weight: bold;
   padding-top: 1em;
 }
@@ -40,14 +40,14 @@ h1{
 }
 
 .foot-1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', Verdana, serif;
   font-size: 16px;
   color: #333;
   font-weight: bold;
   padding: 1em;
 }
 .foot-2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', Verdana, serif;
   font-size: 14px;
   color: #333;
   font-weight: bold;
@@ -55,7 +55,7 @@ h1{
 
 }
 .foot-3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', Verdana, serif;
   font-size: 10px;
   color: #333;
   font-weight: bold;
@@ -109,7 +109,7 @@ h1{
   color: #4169E1; 
   padding: 1em 2em;
   font-size: 1em;
-  font-family: 'Futura PT', sans-serif;
+  font-family: 'Futura PT', Verdana, sans-serif;
   text-decoration: none;
 }
 
@@ -157,7 +157,7 @@ h1{
     color: white;
     text-align: center;
     font-size: 3em;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura PT', Verdana, sans-serif;
     font-weight: bold;
     padding-top: 1em;
   }
@@ -165,7 +165,7 @@ h1{
   #caption{
     text-align: center;
     color: white;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura PT', Verdana, sans-serif;
     font-size: 1em;
     font-weight: bold;
     padding-top: 3em;
@@ -178,7 +178,7 @@ h1{
     color: white;
     text-align: center;
     font-size: 4em;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura PT', Verdana, sans-serif;
     font-weight: bold;
     padding-top: 1em;
   }
@@ -186,7 +186,7 @@ h1{
   #caption{
     text-align: center;
     color: white;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura PT', Verdana, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
     padding-top: 3em;
