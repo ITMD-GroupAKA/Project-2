@@ -23,7 +23,6 @@ h1{
   font-family: 'Futura PT', sans-serif;
   font-weight: bold;
   padding-top: 1em;
-  padding-bottom: 0.5em;
 }
 
 .container {
@@ -110,8 +109,8 @@ h1{
   color: #4169E1; 
   padding: 1em 2em;
   font-size: 1em;
-  font-weight: bold;
   font-family: 'Futura PT', sans-serif;
+  text-decoration: none;
 }
 
 #navbar-container ul li a:hover{
@@ -161,7 +160,6 @@ h1{
     font-family: 'Futura PT', sans-serif;
     font-weight: bold;
     padding-top: 1em;
-    padding-bottom: 0.5em;
   }
   
   #caption{
@@ -183,7 +181,6 @@ h1{
     font-family: 'Futura PT', sans-serif;
     font-weight: bold;
     padding-top: 1em;
-    padding-bottom: 0.5em;
   }
   
   #caption{
