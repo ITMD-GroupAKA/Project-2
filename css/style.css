@@ -64,13 +64,14 @@ h1{
 }
 
 #slideshow{
-  width: 50em;
-  height: 30em;
+  width: 30em;
+  height: 10em;
   position: absolute;
   overflow: hidden;
   border: 0.5em solid white;
-  top: 33%;
-  left: 29%;
+  left: 25%;
+  right: 25%;
+  top: 25%;
 }
 
 .slides{
@@ -176,6 +177,31 @@ h1{
     padding-top: 3em;
   
   }
+  
+  #slideshow{
+    width: 40em;
+    height: 20em;
+    position: absolute;
+    overflow: hidden;
+    border: 0.5em solid white;
+	left: 25%;
+	right: 25%;
+	top: 25%;
+ }
+
+  .slides{
+    width: 500%;
+    margin: 0;
+    left: 0;
+    position: relative;
+    animation: 10s slider infinite;
+  }
+
+  .slides img{
+    float: left;
+    height: auto;
+	object-fit: contain;
+  }
 }
 
 @media screen and (min-width: 1500px){
@@ -194,17 +220,21 @@ h1{
     font-family: 'Futura PT', Verdana, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
-    padding-top: 3em;
+    padding-top: 1em;
+	padding-bottom: 1em;
+	width: 80%;
+	text-align: center;
   }
   
   #slideshow{
     width: 50em;
     height: 30em;
-    position: absolute;
     overflow: hidden;
     border: 0.5em solid white;
-    top: 33%;
-    left: 29%;
+	margin: 0 auto;
+	left: 25%;
+	right: 25%;
+	top: 25%;
  }
 
   .slides{
@@ -217,7 +247,6 @@ h1{
 
   .slides img{
     float: left;
-    width: 20%;
     height: auto;
   }
   
