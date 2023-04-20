@@ -1,7 +1,12 @@
-// Function to display message
-function sayCode() {
-   alert("EMAIL US: ISUD@gmail.com");
-}
-
-// Call the function
-document.getElementById("myBtn").onclick = sayCode;
+window.onload = function() {
+  const slideshow = document.getElementById('slideshow');
+  const slides = slideshow.querySelectorAll(.'slide');
+  let index = 0;
+  
+  slides[index].classList.add('active');
+  setInterval(() => {
+	slides[index].classList.add('active');
+	index = (index + 1) % slides.length;
+	slides[index].classList.add('active');
+  }, 2000);
+};
