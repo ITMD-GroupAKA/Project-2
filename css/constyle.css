@@ -123,3 +123,33 @@ form .cta-button[type="submit"]:hover {
   background-color: #1954a6;
 }
 
+/* Footer Styles */
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin-top: 15px;
+}
+.foot-1 {
+  font-family: 'Playfair Display', 'Lora', serif;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  padding: 1em;
+}
+.foot-2 {
+  font-family: 'Playfair Display', 'Lora', serif;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  padding: 1em;
+}
+.foot-3 {
+  font-family: 'Playfair Display', 'Lora', serif;
+  font-size: 10px;
+  color: #333;
+  font-weight: bold;
+  padding: 1em;
+}
+
