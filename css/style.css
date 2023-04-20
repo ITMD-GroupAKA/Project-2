@@ -4,26 +4,54 @@ body{
   background-attachment: fixed;
 }
 
+h1{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Playfair Display', 'Lora', serif;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+#slideshow{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.slide img{
+  width: 30em;
+}
+
+#slideshow .slide{
+  display: none;
+}
+
+#slideshow .slide.active{
+  display: block;
+}
 #caption{
   text-align: center;
   color: white;
-  font-family: 'Futura PT', sans-serif;
-  font-size: 0.5em;
+  font-family: 'Playfair Display', 'Lora', serif;
+  font-size: 1em;
   font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 #caption p{
   padding-top: 1em;
 }
 
-h1{
-  color: white;
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
   text-align: center;
-  font-size: 2em;
-  font-family: 'Futura PT', sans-serif;
-  font-weight: bold;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
 }
 
 .container {
@@ -32,52 +60,26 @@ h1{
   padding: 1em;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #f5f5f5;
-  text-align: center;
-}
-
 .foot-1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', 'Lora', serif;
   font-size: 16px;
   color: #333;
   font-weight: bold;
   padding: 1em;
 }
 .foot-2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', 'Lora', serif;
   font-size: 14px;
   color: #333;
   font-weight: bold;
-  padding: 1em;
 
 }
 .foot-3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', 'Lora', serif;
   font-size: 10px;
   color: #333;
   font-weight: bold;
-  padding: 1em;
 
-}
-
-.slideshow{
-  width: 50em;
-  height: 30em;
-  position: absolute;
-  overflow: hidden;
-  border: 0.5em solid white;
-  top: 33%;
-  left: 29%;
-}
-
-.slides{
-  width: 100%;
-  display: flex;
-  animation: slide 10s infinite;
 }
 
 #navbar-container{
@@ -110,89 +112,68 @@ h1{
   color: #4169E1; 
   padding: 1em 2em;
   font-size: 1em;
-  font-weight: bold;
-  font-family: 'Futura PT', sans-serif;
+  font-family: 'Playfair Display', 'Lora', serif;
+  text-decoration: none;
 }
 
 #navbar-container ul li a:hover{
   background-color: #8AC7DB; 
 }
 
-@keyframes slide{  
-
-  0%{
-    transform: translateX(0);
-  }
-  
-  25%{
-    transform: translateX(0);
-  }
-	
-  30%{
-    transform: translateX(-100%);
-  }
-	
-  50%{
-    transform: translateX(-100%);
-  }
-	
-  55%{
-    transform: translateX(-200%);
-  }
-	
-  75%{
-    transform: translateX(-200%);
-  }
-	
-  80%{
-    transform: translateX(-300%);
-  }
-	
-  100%{
-    transform: translateX(-300%);
-  }
-}
-
 @media screen and (min-width: 800px){
+	
   h1{
     color: white;
     text-align: center;
     font-size: 3em;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Playfair Display', 'Lora', serif;
     font-weight: bold;
     padding-top: 1em;
-    padding-bottom: 0.5em;
   }
   
   #caption{
     text-align: center;
     color: white;
-    font-family: 'Futura PT', sans-serif;
-    font-size: 1em;
+    font-family: 'Playfair Display', 'Lora', serif;
+    font-size: 1.25em;
     font-weight: bold;
-    padding-top: 3em;
+    padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 5em;
+	padding-right: 5em;
   
   }
 }
 
+  .slide img{
+	width: 40em;
+  }
+
 @media screen and (min-width: 1500px){
+	
   h1{
     color: white;
     text-align: center;
     font-size: 4em;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Playfair Display', 'Lora', serif;
     font-weight: bold;
     padding-top: 1em;
-    padding-bottom: 0.5em;
   }
   
   #caption{
     text-align: center;
     color: white;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Playfair Display', 'Lora', serif;
     font-size: 1.5em;
     font-weight: bold;
-    padding-top: 3em;
-  
+    padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 5em;
+	padding-right: 5em;
   }
+  
+  .slide img{
+	width: 50em;
+  }
+  
 }
