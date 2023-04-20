@@ -18,3 +18,35 @@
   resize: vertical;
 }
 
+#navbar-container{
+  text-align: center;
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: white;
+  overflow: hidden;
+}
+#navbar-container ul{
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style-type: none;
+  float: left;
+}
+#navbar-container ul li{
+  display: block;
+  float: left;
+  right: 50%;
+  position: relative;
+}
+#navbar-container ul li a{
+  display: block;
+  color: #4169E1;
+  padding: 1em 2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Playfair Display', 'Lora', serif;
+}
+#navbar-container ul li a:hover{
+  background-color: #8AC7DB;
