@@ -162,3 +162,17 @@ form .cta-button[type="submit"]:hover {
   line-height: 1.8;
   font-family: 'Playfair Display', 'Lora', serif;
 }
+
+@media (min-width: 736px) {
+  input[type="text"], input[type="email"], textarea {
+    width: 60%;
+  }
+  form .cta-button[type="submit"] {
+    font-size: 1em;
+    width: 70%;
+  }
+  .foot-1, .foot-2, .foot-3 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
