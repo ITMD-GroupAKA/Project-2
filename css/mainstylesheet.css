@@ -4,8 +4,8 @@
      background: blue;
      background: linear-gradient(#4169E1, white);
      background-attachment: fixed;
-	 font-family: 'Playfair Display', 'Lora', serif;
-	 box-sizing: border-box;
+     font-family: 'Playfair Display', 'Lora', serif;
+     box-sizing: border-box;
 }
  *, *:before, *:after {
      box-sizing: inherit;
@@ -210,6 +210,55 @@
 }
 
 /* Index Page */
+ .slideshow{
+     overflow: hidden;
+     border: 0.5em solid white;
+     top: 33%;
+     left: 29%;
+}
+ .slides{
+     width: 100%;
+     display: flex;
+     animation: slide 10s infinite;
+}
+ @keyframes slide{
+     0%{
+         transform: translateX(0);
+    }
+     25%{
+         transform: translateX(0);
+    }
+     30%{
+         transform: translateX(-100%);
+    }
+     50%{
+         transform: translateX(-100%);
+    }
+     55%{
+         transform: translateX(-200%);
+    }
+     75%{
+         transform: translateX(-200%);
+    }
+     80%{
+         transform: translateX(-300%);
+    }
+     100%{
+         transform: translateX(-300%);
+    }
+}
+ .index-title{
+     background-color: #f1f1f1;
+     color: black;
+     text-align: center;
+     padding: 10px;
+     margin-bottom: 0.25em;
+     border-style: double;
+     border-color: white;
+     border-width: 7px;
+     font-size: 20px;
+     margin-top: 5em;
+    }
 
 /* Navigation Bar */
  #navbar-container{
@@ -308,4 +357,55 @@
          margin-bottom: 0;
     }
 }
+@media screen and (min-width: 800px){
+     .index-h1{
+         color: white;
+         text-align: center;
+         font-size: 3em;
+         font-family: 'Playfair Display', 'Lora', serif;
+         font-weight: bold;
+         padding-top: 0.25em;
+         padding-bottom: 0.25em;
+    }
+     #caption{
+         text-align: center;
+         color: white;
+         font-family: 'Playfair Display', 'Lora', serif;
+         font-size: 1em;
+         padding: 10px 15px;
+    }
+     .slideshow{
+         width: 50em;
+         height: 30em;
+         text-align: center;
+         margin: 0 auto;
+    }
+     #caption p{
+         padding-top: 2px;
+         font-size: 1em;
+         line-height: 1.8;
+         color: black;
+    }
+    
+}
+ @media screen and (min-width: 1500px){
+     .index-h1{
+         color: white;
+         text-align: center;
+         font-size: 4em;
+         font-family: 'Playfair Display', 'Lora', serif;
+         font-weight: bold;
+         padding-top: 1em;
+         padding-bottom: 0.5em;
+    }
+     #caption{
+         text-align: center;
+         color: white;
+         font-family: 'Playfair Display', 'Lora', serif;
+         font-size: 1.5em;
+         font-weight: bold;
+         padding-top: 3em;
+    }
+}
+
  
