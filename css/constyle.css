@@ -1,10 +1,12 @@
-body{
-  background: blue;
-  background: linear-gradient(#4169E1, white);
-  background-attachment: fixed;
+.body-contact {
+  background: linear-gradient(to bottom, #4169E1, white);
+  font-family: 'Playfair Display', 'Lora', serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-h1 {
+.h1-contact {
   margin: auto;
   background-color: DodgerBlue;
   color: white;
@@ -13,112 +15,164 @@ h1 {
   padding: 0.30em;
   display: block;
   position: relative;
-  resize: vertical;  
+  resize: vertical;
 }
 
-h2 {
+#navbar-container{
   text-align: center;
-  margin-top: 10%;
-  font-family: "Arial", serif;
-  font-size: 1.30em;
-  color: white;
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: white;
+  overflow: hidden;
+}
+#navbar-container ul{
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style-type: none;
+  float: left;
+}
+#navbar-container ul li{
+  display: block;
+  float: left;
+  right: 50%;
+  position: relative;
+}
+#navbar-container ul li a{
+  display: block;
+  color: #4169E1;
+  padding: 1em 2em;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Playfair Display', 'Lora', serif;
+}
+#navbar-container ul li a:hover{
+  background-color: #8AC7DB;
+}  
+.contact-title {
+  background-color: #f1f1f1;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 5px;
+  border-style: double;
+  border-color: white;
+  border-width: 7px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
+.contact-title2 {
+  background-color: #f1f1f1;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 5px;
+  border-style: double;
+  border-color: white;
+  border-width: 7px;
+  font-size: 20px;
+  margin-top: 70px;
+}
+
+/* Form Styles */
 form {
-  font-family: "Georgia", serif;
-  width: auto;
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  border: 1px solid DodgerBlue;
+}
+
+form textarea {
+  height: 10rem;
+}
+form .cta-button[type="submit"] {
   background-color: DodgerBlue;
-  border-radius: 1.50em;
-  padding: 0.70em;
-  outline: 0.20em solid black;
-  text-align: center;
-  margin-top: 4%;
-  margin-left: 25%;
-  margin-right: 25%;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+form .cta-button[type="submit"]:hover {
+  background-color: #1954a6;
 }
 
-#message {
-  padding: 2em;
-}
-
-.container {
-  padding: 0 16px;
-  text-align: center;
-  padding: 1em;
-}
-
+/* Footer Styles */
 .footer {
-  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: #f5f5f5;
   text-align: center;
+  margin-top: 15px;
 }
-
 .foot-1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', 'Lora', serif;
   font-size: 16px;
   color: #333;
   font-weight: bold;
   padding: 1em;
 }
-
 .foot-2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', 'Lora', serif;
   font-size: 14px;
   color: #333;
   font-weight: bold;
   padding: 1em;
 }
 .foot-3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', 'Lora', serif;
   font-size: 10px;
   color: #333;
   font-weight: bold;
   padding: 1em;
 }
 
-#navbar-container{
+.right-contact {
+  background-color: #f1f1f1;
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   text-align: center;
-  position: relative; 
-  width: 100%;
-  float: left;
-  background-color: white;
-  overflow: hidden; 
+  line-height: 1.8;
+  font-family: 'Playfair Display', 'Lora', serif;
 }
 
-#navbar-container ul{
-  left: 50%;
-  margin: 0; 
-  padding: 0; 
-  position: relative; 
-  list-style-type: none; 
-  float: left;
-}
-
-#navbar-container ul li{ 
-  display: block; 
-  float: left;
-  right: 50%;
-  position: relative;
-}
-
-#navbar-container ul li a{
-  display: block; 
-  color: #4169E1; 
-  padding: 1em 2em;
-  font-size: 1em;
-  font-weight: bold;
-  font-family: 'Futura PT', sans-serif;
-}
-
-#navbar-container ul li a:hover{
-  background-color: #8AC7DB; 
-}
-
-@media screen and (min-width: 800px) {
-  form {
-    padding: 0.40em;
-	display: block;
+@media (min-width: 736px) {
+  input[type="text"], input[type="email"], textarea {
+    width: 60%;
+  }
+  form .cta-button[type="submit"] {
+    font-size: 1em;
+    width: 70%;
+  }
+  .foot-1, .foot-2, .foot-3 {
+    text-align: center;
+    margin-bottom: 0;
   }
 }
