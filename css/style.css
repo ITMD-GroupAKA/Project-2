@@ -57,16 +57,21 @@
      color: #333;
      font-weight: bold;
 }
- .slideshow{
-     overflow: hidden;
-     border: 0.5em solid white;
-     top: 33%;
-     left: 29%;
+#slideshow{
+  width: 100%;
+  height: auto;
+  text-align: center;
 }
- .slides{
-     width: 100%;
-     display: flex;
-     animation: slide 10s infinite;
+.slide img{
+  width: 30em;
+}
+
+#slideshow .slide{
+  display: none;
+}
+
+#slideshow .slide.active{
+  display: block;
 }
  #navbar-container{
      text-align: center;
@@ -156,12 +161,9 @@
          font-size: 1em;
          padding: 10px 15px;
     }
-     .slideshow{
-         width: 50em;
-         height: 30em;
-         text-align: center;
-         margin: 0 auto;
-    }
+      .slide img{
+	width: 40em;
+  }
      #caption p{
          padding-top: 2px;
          font-size: 1em;
@@ -188,4 +190,7 @@
          font-weight: bold;
          padding-top: 3em;
     }
+       .slide img{
+	width: 50em;
+  }
 }
