@@ -147,6 +147,10 @@ h1{
   }
 }
 
+  .slide img{
+	width: 40em;
+  }
+
 @media screen and (min-width: 1500px){
 	
   h1{
@@ -168,6 +172,10 @@ h1{
 	padding-bottom: 1em;
 	padding-left: 5em;
 	padding-right: 5em;
+  }
+  
+  .slide img{
+	width: 50em;
   }
   
 }
