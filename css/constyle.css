@@ -92,3 +92,13 @@ form label {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  border: 1px solid DodgerBlue;
+}
