@@ -274,6 +274,8 @@
      background-color: white;
      overflow: hidden;
      margin-bottom: 20px;
+     position: fixed;
+     top: 0;	 
 }
  #navbar-container ul{
      left: 50%;
