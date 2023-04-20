@@ -13,6 +13,23 @@ h1{
   padding-top: 1em;
 }
 
+#slideshow{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.slide img{
+  width: 30em;
+}
+
+#slideshow .slide{
+  display: none;
+}
+
+#slideshow .slide.active{
+  display: block;
+}
 #caption{
   text-align: center;
   color: white;
@@ -67,32 +84,6 @@ h1{
 
 }
 
-#slideshow{
-  width: 30em;
-  height: 10em;
-  position: absolute;
-  overflow: hidden;
-  border: 0.5em solid white;
-  left: 25%;
-  right: 25%;
-  top: 25%;
-}
-
-.slides{
-  width: 500%;
-  margin: 0;
-  left: 0;
-  position: relative;
-  animation: 10s slider infinite;
-}
-
-.slides img{
-  float: left;
-  width: 20%;
-  height: auto;
-}
-
-
 #navbar-container{
   text-align: center;
   position: relative; 
@@ -131,37 +122,6 @@ h1{
   background-color: #8AC7DB; 
 }
 
-@keyframes slider{
-	
-  0%{
-    left: 0;
-  }
-  20% {
-    left: 0;
-  }
-  25%{
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  50%{
-    left: -200%;
-  }
-  70% {
-    left: -200%;
-  }
-  75%{
-    left: -300%;
-  }
-  95% {
-    left: -300%;
-  }
-  100%{
-    left: -400%;  
-  }
-}
-
 @media screen and (min-width: 800px){
 	
   h1{
@@ -184,31 +144,6 @@ h1{
 	padding-left: 5em;
 	padding-right: 5em;
   
-  }
-  
-  #slideshow{
-    width: 40em;
-    height: 20em;
-    position: absolute;
-    overflow: hidden;
-    border: 0.5em solid white;
-	left: 25%;
-	right: 25%;
-	top: 25%;
- }
-
-  .slides{
-    width: 500%;
-    margin: 0;
-    left: 0;
-    position: relative;
-    animation: 10s slider infinite;
-  }
-
-  .slides img{
-    float: left;
-    height: auto;
-	object-fit: contain;
   }
 }
 
@@ -233,30 +168,6 @@ h1{
 	padding-bottom: 1em;
 	padding-left: 5em;
 	padding-right: 5em;
-  }
-  
-  #slideshow{
-    width: 50em;
-    height: 30em;
-    overflow: hidden;
-    border: 0.5em solid white;
-	margin: 0 auto;
-	left: 25%;
-	right: 25%;
-	top: 25%;
- }
-
-  .slides{
-    width: 500%;
-    margin: 0;
-    left: 0;
-    position: relative;
-    animation: 10s slider infinite;
-  }
-
-  .slides img{
-    float: left;
-    height: auto;
   }
   
 }
