@@ -31,28 +31,26 @@
     </div>
 	<h2 class="contact-title">To join us, please fill out the form below:</h2>
     <form id="myForm" action="/action_page.php" method="post" autocomplete="on" onsubmit="return validate()">
-  
-    <li id="input-name">
-      <label for="name">Full name:</label>
-      <input type="text" name="name" id="name">
-	</li>
-	<li id="input-email">
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email">
-	</li>
-    <li id="input-subject">
-      <label for="subject">Subject:</label>
-      <input type="text" name="subject" id="subject">
-	</li>
-	<li id="input-message">
-      <label for="message">Message:</label>
-      <input type="text" name="message" id="message">
-	</li>
-	<li id="input-send">
-      <input type="submit" name="send" id="send" value="Send">
-    </li>
-  
-  </form>
+      <div class="form-group">
+        <label for="name">Full name:</label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject:</label>
+        <input type="text" name="subject" id="subject" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Join ISUD" class="cta-button">
+      </div>
+    </form>
   <div class="footer">
     <div class="container">
       <p class="foot-1">GET UPDATES ON ISUD INFORMATION</p>
