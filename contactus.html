@@ -29,8 +29,9 @@
       <h2>Growth</h2>
       <p>ISUD provides opportunities to connect with people from diverse backgrounds and learn about their unique experiences and perspectives.</p>
     </div>
-    <form id="form" action="#null" method="get" autocomplete="on">
-  <ol>
+	<h2 class="contact-title">To join us, please fill out the form below:</h2>
+    <form id="myForm" action="/action_page.php" method="post" autocomplete="on" onsubmit="return validate()">
+  
     <li id="input-name">
       <label for="name">Full name:</label>
       <input type="text" name="name" id="name">
@@ -50,7 +51,7 @@
 	<li id="input-send">
       <input type="submit" name="send" id="send" value="Send">
     </li>
-   </ol>
+  
   </form>
   <div class="footer">
     <div class="container">
